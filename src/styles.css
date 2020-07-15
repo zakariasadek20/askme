@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */ 
+@import url("./assets/css/style.min.css");
+@import url("./assets/css/custom.css");
+@import url("./assets/css/styles.css");
+@import url("./assets/css/prettyPhoto.css");
+@import url("./assets/css/main.css");
+@import url("./assets/css/responsive.css");
+@import url("./assets/css/skins/skins.css");
+@import url("./assets/css/style.css");
+/* @import url("./assets/css/saved_resource(1).css"); */
+@import url("./assets/css/mediaelement/mediaelementplayer-legacy.min.css");
+@import url("./assets/css/mediaelement/wp-mediaelement.min.css"); 
+
+
+img.wp-smiley,img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important
+}
+
+.call-action-unlogged {
+    background-image: url("./assets/images/action.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./assets/images/action.png", sizingMethod="scale");
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/images/images/action.png',sizingMethod='scale')";
+    background-size: cover
+}
+
+#login-panel .panel-image-content {
+    background-image: url(./assets/images/signin.png)
+}
+
+#signup-panel .panel-image-content {
+    background-image: url(https://2code.info/demo/themes/Discy/Main/wp-content/uploads/2019/01/signup.png)
+}
+
+#lost-password .panel-image-content {
+    background-image: url(https://2code.info/demo/themes/Discy/Main/wp-content/uploads/2019/01/signup.png)
+}
